@@ -1,4 +1,4 @@
-const User = require("../server/Models/user");
+const User = require("../Models/user");
 const { isEmail } = require("validator");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
